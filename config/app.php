@@ -150,6 +150,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        CodePress\CodeCategory\Providers\CodeCategoryServiceProvider::class,
+        CodePress\CodeTags\Providers\CodeTagServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
